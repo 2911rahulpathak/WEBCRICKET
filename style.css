@@ -1,0 +1,103 @@
+body{
+    margin:0%;
+    background-image: url("img4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 45px;
+   
+}
+
+/* .bg-container{
+    background-image: url("img4.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 100vh;
+    background-position: 200px ;
+} */
+
+
+
+h1 {
+
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin:2%;
+    text-align: center;
+    color: #ffc ;
+    text-shadow: -2px 0 black, 2px 0 black, 2px 0 black, 0 2px black; 
+}
+
+h2{
+    font-family: 'Merriweather';
+    font-size: 3rem;
+    padding-top: 5%;
+    text-align: center;
+}
+
+
+#indWic,
+#pakWic {
+    color: red;
+}
+
+
+.vs{
+    color: #FFFAF0;
+}
+
+#one,
+#two,
+#three,
+#four,
+#six,
+#wic,
+#dot {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 4px solid yellowgreen;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 6%;
+    margin-top: 2%;
+    transition-duration: 0.3s;
+    border-radius: 22px;
+    font-size:40px;
+    cursor: pointer;
+}
+
+
+
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#six:hover,
+#wic:hover,
+#dot:hover {
+    background-color: yellowgreen;
+    color: white;
+}
+
+#start{
+    background-color: white;
+    color: black;
+    border: 4px solid gray;
+    padding: 25px 33px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: 2%;
+    transition-duration: 0.2s;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#start:hover{
+    background-color: rgb(0, 204, 255);
+
+}
+
+
